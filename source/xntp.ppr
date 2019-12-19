@@ -1,0 +1,21 @@
+//===============================================================================
+// xNTP   : Extended NTP Server
+// Author : Nugax
+// Date   : 12/18/2019
+//===============================================================================
+
+program xntp;
+
+{$mode objfpc}{$H+}
+
+uses
+  cthreads,
+  main,
+  connections,
+  classes;
+
+begin
+ main.main();
+ halt;
+end.
+
